@@ -1,0 +1,110 @@
+/* fonts */
+/* font-family: 'Andika', sans-serif;
+font-family: 'Battambang', cursive;
+font-family: 'Capriola', sans-serif;
+font-family: 'Catamaran', sans-serif;
+font-family: 'Grand Hotel', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Andika", sans-serif;
+  line-height: 1.5;
+  padding: 0 2rem;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* navbar */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1.5rem;
+}
+#navbar .nav-logo p {
+  margin-top: -0.86rem;
+  letter-spacing: 2px;
+}
+#navbar .nav-item {
+  display: flex;
+  margin-top: 0.5rem;
+}
+#navbar .nav-item .item {
+  margin: 0 4rem;
+  font-size: 0.75rem;
+}
+#navbar .nav-item .item i {
+  margin: 0 0.5rem;
+}
+#navbar .nav-item .item3 {
+  margin-top: 0.55rem;
+}
+#showcase {
+  display: flex;
+}
+#showcase .hero {
+  width: 80%;
+  height: 500px;
+  margin-left: 1.2rem;
+  background: url(../img/showcase.jpg) no-repeat center center/cover;
+}
+.hero h1 {
+  text-shadow: 2px 2px 2px grey;
+  color: rgb(0, 0, 0, 0.9);
+  font-size: 5rem;
+  line-height: 1.2;
+  margin-left: 1rem;
+}
+.btn {
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-size: 1rem;
+  padding: 1.2rem 2.5rem;
+  background-color: black;
+  color: white;
+}
+.hero-item {
+  margin-left: 8%;
+  margin-top: 3rem;
+}
+.hero-item ul li {
+  margin: 2rem 0;
+}
+/* section dinning */
+#dining {
+  display: flex;
+  margin: 1rem;
+}
+.dining-left {
+  display: flex;
+}
+.dining-left img {
+  width: 300px;
+}
+.design {
+  display: flex;
+  position: relative;
+}
+
+.design .solid {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+.design .dotted {
+  width: 40px;
+  height: 40px;
+  border: 1px dotted black;
+}
