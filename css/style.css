@@ -16,7 +16,7 @@ font-family: 'Poppins', sans-serif; */
 body {
   font-family: "Andika", sans-serif;
   line-height: 1.5;
-  padding: 0 2rem;
+  /* padding: 0 2rem; */
 }
 ul {
   list-style: none;
@@ -27,6 +27,11 @@ a {
 }
 
 /* navbar */
+header {
+  /* margin: 0 2rem; */
+  padding: 0 2rem;
+  background-color: rgb(245, 243, 243);
+}
 #navbar {
   display: flex;
   justify-content: space-between;
@@ -57,7 +62,7 @@ a {
   width: 80%;
   height: 500px;
   margin-left: 1.2rem;
-  background: url(../img/4.jpg) no-repeat center center/cover;
+  background: url(../img/3.jpg) no-repeat center center/cover;
 }
 .hero h1 {
   text-shadow: 2px 2px 2px grey;
@@ -94,7 +99,7 @@ a {
 /* section dinning */
 #dining {
   display: flex;
-  margin: 3rem 1rem;
+  margin: 3rem;
   height: 350px;
 }
 .dining-left {
@@ -146,9 +151,13 @@ a {
 }
 
 /* details section */
+#details {
+  background-color: rgb(245, 243, 243);
+}
 #details .header {
   width: 900px;
   margin: auto;
+  padding-top: 2rem;
   text-align: center;
   font-size: 1.4rem;
   text-transform: capitalize;
