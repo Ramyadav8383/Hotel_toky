@@ -29,8 +29,17 @@ a {
 }
 header {
   /* margin: 0 2rem; */
-  padding: 0 2rem;
-  /* background-color: rgb(245, 243, 243); */
+  padding: 1rem 2rem;
+  background-color: rgb(245, 243, 243);
+}
+.btn-dark-1 {
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-size: 1rem;
+  padding: 0.75rem 3rem;
+  background-color: black;
+  color: white;
 }
 
 /* navbar */
@@ -73,6 +82,7 @@ header {
   font-size: 5rem;
   line-height: 1.2;
   margin-left: 1rem;
+  margin-top: 1rem;
 }
 .btn-dark {
   cursor: pointer;
@@ -314,3 +324,59 @@ header {
 }
 
 /* suscribe */
+#footer {
+  background-color: rgb(245, 243, 243);
+}
+.footer-upper {
+  display: flex;
+  padding: 4rem;
+}
+.footer-upper .content {
+  width: 50%;
+}
+.footer-upper .content h2 {
+  font-size: 3rem;
+  margin-top: -1.5rem;
+}
+.footer-upper .content p {
+  margin: 1rem 0;
+}
+.footer-upper .form {
+  width: 60%;
+}
+.form input {
+  margin: 1rem 1rem;
+  padding: 0.85rem 1.2rem;
+  border: none;
+  background-color: rgb(245, 243, 243);
+  border-bottom: 1px solid rgb(73, 72, 72);
+}
+.footer-lower {
+  margin: auto;
+  background-color: #fff;
+  /* height: 100vh; */
+  width: 90%;
+}
+.footer-lower .center {
+  text-align: center;
+  padding-top: 2.7rem;
+}
+.footer-lower p {
+  text-align: center;
+  /* padding: 2rem; */
+}
+.foot {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 5rem;
+}
+.foot h3 {
+  text-align: center;
+}
+.foot ul {
+  margin: 1rem 0;
+}
+.foot ul li {
+  margin: 1rem 0;
+  text-align: center;
+}
