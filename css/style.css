@@ -41,6 +41,15 @@ header {
   background-color: black;
   color: white;
 }
+.btn-special {
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-size: 1rem;
+  padding: 1rem 2.5rem;
+  background-color: rgba(228, 236, 228, 0.9);
+  color: black;
+}
 
 /* navbar */
 
@@ -74,15 +83,15 @@ header {
   width: 80%;
   height: 500px;
   margin-left: 1.2rem;
-  background: url(../img/3.jpg) no-repeat center center/cover;
+  background: url(../img/showcase-1.jpg) no-repeat center center/cover;
 }
 .hero h1 {
   text-shadow: 2px 2px 2px grey;
-  color: rgb(0, 0, 0, 0.9);
+  color: rgba(228, 236, 228, 0.9);
   font-size: 5rem;
   line-height: 1.2;
-  margin-left: 1rem;
-  margin-top: 1rem;
+  /* margin-left: 1rem; */
+  margin: 1rem 1rem;
 }
 .btn-dark {
   cursor: pointer;
