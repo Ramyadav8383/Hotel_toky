@@ -17,6 +17,8 @@ body {
   font-family: "Andika", sans-serif;
   line-height: 1.5;
   /* padding: 0 2rem; */
+  /* background-color: rgb(245, 243, 243); */
+  /* background-color: rgb(253, 235, 235); */
 }
 ul {
   list-style: none;
@@ -25,13 +27,23 @@ a {
   text-decoration: none;
   color: black;
 }
-
-/* navbar */
 header {
   /* margin: 0 2rem; */
-  padding: 0 2rem;
+  padding: 1rem 2rem;
   background-color: rgb(245, 243, 243);
 }
+.btn-dark-1 {
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-size: 1rem;
+  padding: 0.75rem 3rem;
+  background-color: black;
+  color: white;
+}
+
+/* navbar */
+
 #navbar {
   display: flex;
   justify-content: space-between;
@@ -70,6 +82,7 @@ header {
   font-size: 5rem;
   line-height: 1.2;
   margin-left: 1rem;
+  margin-top: 1rem;
 }
 .btn-dark {
   cursor: pointer;
@@ -100,7 +113,7 @@ header {
 #dining {
   display: flex;
   margin: 3rem;
-  height: 350px;
+  height: 270px;
 }
 .dining-left {
   display: flex;
@@ -152,6 +165,7 @@ header {
 
 /* details section */
 #details {
+  /* background-color: rgb(253, 235, 235); */
   background-color: rgb(245, 243, 243);
 }
 #details .header {
@@ -166,6 +180,7 @@ header {
 .detail-main {
   display: flex;
   margin: 4rem 2.5rem;
+  padding-bottom: 2rem;
 }
 .detail-main .detail-left {
   width: 50%;
@@ -178,6 +193,7 @@ header {
   margin: 1.5rem 0;
   font-size: 2rem;
   border-bottom: 1px solid grey;
+  padding-bottom: 5px;
   width: 400px;
 }
 .detail-main .detail-right {
@@ -189,7 +205,7 @@ header {
 
 /* features */
 #features {
-  height: 740px;
+  height: 660px;
 }
 #features .header {
   text-align: center;
@@ -200,19 +216,167 @@ header {
 }
 .features-main img {
   width: 100%;
-  height: 100%;
+  height: 60%;
 }
 .features-left {
   margin: 1rem 4rem;
-  width: 23%;
-  height: 370px;
+  padding-left: 2rem;
+  width: 25%;
+  height: 500px;
+  border-left: 1px solid rgb(105, 102, 102);
 }
 .features-center {
-  width: 23%;
+  width: 25%;
   margin: 1rem 4rem;
-  height: 370px;
+  padding-left: 2rem;
+  /* height: 370px; */
+  border-left: 1px solid rgb(105, 102, 102);
 }
 .features-right {
-  width: 23%;
+  width: 25%;
   margin: 1rem 4rem;
+  padding-left: 2rem;
+  /* height: 370px; */
+  border-left: 1px solid rgb(105, 102, 102);
+}
+
+/* discounts */
+#discounts {
+  background-color: rgb(245, 243, 243);
+}
+.discount-main {
+  display: flex;
+  padding: 3rem 4rem;
+}
+.discount-left {
+  width: 50%;
+}
+.discount-left img {
+  width: 100%;
+}
+
+.discount-right {
+  padding-left: 5rem;
+}
+.discount-right h1 {
+  font-size: 3rem;
+}
+.discount-right p {
+  margin: 1rem 0;
+}
+.discount-down {
+  display: flex;
+  margin: 2rem 0;
+}
+.discount-down .large {
+  font-size: 4rem;
+}
+.para {
+  font-size: 1.3rem;
+}
+.discount-down-left {
+  border-left: 1px solid black;
+  padding-left: 1rem;
+}
+.discount-down-right {
+  border-left: 1px solid black;
+  padding-left: 1rem;
+}
+
+/* gallary */
+#gallary {
+  padding: 4rem 6rem;
+  padding-bottom: 14rem;
+}
+#gallary .header {
+  font-size: 3.6rem;
+}
+#gallary ul {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgb(158, 154, 154);
+  margin-top: 1.5rem;
+}
+#gallary ul li {
+  font-weight: bold;
+  padding: 0 1rem;
+}
+.gallary-main {
+  display: flex;
+  margin-top: 2rem;
+}
+.gallary-main img {
+  width: 100%;
+  height: 100%;
+}
+.gallary-left {
+  width: 100%;
+  height: 500px;
+  margin-right: 2rem;
+}
+.gallary-right {
+  width: 100%;
+  height: 500px;
+}
+.gallary-right .btn-light {
+  margin-top: 2.2rem;
+}
+
+/* suscribe */
+#footer {
+  background-color: rgb(245, 243, 243);
+}
+.footer-upper {
+  display: flex;
+  padding: 4rem;
+}
+.footer-upper .content {
+  width: 50%;
+}
+.footer-upper .content h2 {
+  font-size: 3rem;
+  margin-top: -1.5rem;
+}
+.footer-upper .content p {
+  margin: 1rem 0;
+}
+.footer-upper .form {
+  width: 60%;
+}
+.form input {
+  margin: 1rem 1rem;
+  padding: 0.85rem 1.2rem;
+  border: none;
+  background-color: rgb(245, 243, 243);
+  border-bottom: 1px solid rgb(73, 72, 72);
+}
+.footer-lower {
+  margin: auto;
+  background-color: #fff;
+  /* height: 100vh; */
+  width: 90%;
+}
+.footer-lower .center {
+  text-align: center;
+  padding-top: 2.7rem;
+}
+.footer-lower p {
+  text-align: center;
+  /* padding: 2rem; */
+}
+.foot {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 5rem;
+}
+.foot h3 {
+  text-align: center;
+}
+.foot ul {
+  margin: 1rem 0;
+}
+.foot ul li {
+  margin: 1rem 0;
+  text-align: center;
 }
